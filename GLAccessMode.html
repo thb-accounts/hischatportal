@@ -31,6 +31,12 @@
       display: block;
       margin-left: 1em;
     }
+    .explanation {
+      margin-top: 0.5em;
+      margin-left: 1em;
+      font-size: 0.9em;
+      color: #d00;
+    }
     button {
       display: block;
       margin: 2em auto;
@@ -46,87 +52,97 @@
 </head>
 <body>
   <div class="container">
-    <h1>KS2 GL Style Science Quiz made with Padlet</h1>
+    <h1>KS2 Science Quiz</h1>
     <form id="quizForm">
 
-      <div class="question">
+      <div class="question" data-answer="b" data-explanation="Classification helps scientists group organisms by shared characteristics to better study and understand them.">
         <p>1. Why do scientists classify living things?</p>
-        <label><input type="radio" name="q1" value="b"> To group them by similar features</label>
         <label><input type="radio" name="q1" value="a"> To give them funny names</label>
+        <label><input type="radio" name="q1" value="b"> To group them by similar features</label>
         <label><input type="radio" name="q1" value="c"> To keep them in cages</label>
         <label><input type="radio" name="q1" value="d"> To feed them easily</label>
+        <div class="explanation" style="display:none;"></div>
       </div>
 
-      <div class="question">
+      <div class="question" data-answer="b" data-explanation="Butterflies undergo metamorphosis: egg → caterpillar → chrysalis → butterfly.">
         <p>2. Which of the following is a correct order of a butterfly’s life cycle?</p>
-        <label><input type="radio" name="q2" value="b"> Egg → Caterpillar → Chrysalis → Butterfly</label>
         <label><input type="radio" name="q2" value="a"> Egg → Frog → Butterfly</label>
+        <label><input type="radio" name="q2" value="b"> Egg → Caterpillar → Chrysalis → Butterfly</label>
         <label><input type="radio" name="q2" value="c"> Egg → Bird → Butterfly</label>
         <label><input type="radio" name="q2" value="d"> Egg → Caterpillar → Butterfly → Seed</label>
+        <div class="explanation" style="display:none;"></div>
       </div>
 
-      <div class="question">
+      <div class="question" data-answer="a" data-explanation="A healthy diet includes a balance of carbohydrates, proteins, fats, vitamins, and minerals.">
         <p>3. What does a healthy diet include?</p>
         <label><input type="radio" name="q3" value="a"> A balance of different food groups</label>
         <label><input type="radio" name="q3" value="b"> Only fats and sugars</label>
         <label><input type="radio" name="q3" value="c"> No exercise</label>
         <label><input type="radio" name="q3" value="d"> Just fruit juice</label>
+        <div class="explanation" style="display:none;"></div>
       </div>
 
-      <div class="question">
+      <div class="question" data-answer="c" data-explanation="Adaptation is a feature that helps an organism survive; a polar bear’s thick fur helps it stay warm.">
         <p>4. Which of the following is an example of adaptation?</p>
-        <label><input type="radio" name="q4" value="c"> A polar bear’s thick fur</label>
         <label><input type="radio" name="q4" value="a"> A car's wheels</label>
         <label><input type="radio" name="q4" value="b"> A plant in a pot</label>
+        <label><input type="radio" name="q4" value="c"> A polar bear’s thick fur</label>
         <label><input type="radio" name="q4" value="d"> A plastic bottle</label>
+        <div class="explanation" style="display:none;"></div>
       </div>
 
-      <div class="question">
+      <div class="question" data-answer="d" data-explanation="The heart pumps blood around the body through arteries and veins.">
         <p>5. What is the main organ that pumps blood in the circulatory system?</p>
-        <label><input type="radio" name="q5" value="d"> Heart</label>
         <label><input type="radio" name="q5" value="a"> Brain</label>
         <label><input type="radio" name="q5" value="b"> Liver</label>
         <label><input type="radio" name="q5" value="c"> Lungs</label>
+        <label><input type="radio" name="q5" value="d"> Heart</label>
+        <div class="explanation" style="display:none;"></div>
       </div>
 
-      <div class="question">
+      <div class="question" data-answer="c" data-explanation="Fossils are the preserved remains or impressions of ancient organisms.">
         <p>6. What are fossils?</p>
-        <label><input type="radio" name="q6" value="c"> Preserved remains of plants or animals</label>
         <label><input type="radio" name="q6" value="a"> Pieces of plastic</label>
         <label><input type="radio" name="q6" value="b"> Recent bones</label>
+        <label><input type="radio" name="q6" value="c"> Preserved remains of plants or animals</label>
         <label><input type="radio" name="q6" value="d"> Alien rocks</label>
+        <div class="explanation" style="display:none;"></div>
       </div>
 
-      <div class="question">
+      <div class="question" data-answer="a" data-explanation="Shadows form when light is blocked by an opaque object.">
         <p>7. What causes shadows to form?</p>
         <label><input type="radio" name="q7" value="a"> Light being blocked by an object</label>
         <label><input type="radio" name="q7" value="b"> Too much heat</label>
         <label><input type="radio" name="q7" value="c"> Rain clouds</label>
         <label><input type="radio" name="q7" value="d"> Air pressure</label>
+        <div class="explanation" style="display:none;"></div>
       </div>
 
-      <div class="question">
+      <div class="question" data-answer="b" data-explanation="Gravity is a force that pulls objects towards each other.">
         <p>8. Which is an example of a force?</p>
-        <label><input type="radio" name="q8" value="b"> Gravity</label>
         <label><input type="radio" name="q8" value="a"> Temperature</label>
+        <label><input type="radio" name="q8" value="b"> Gravity</label>
         <label><input type="radio" name="q8" value="c"> Colour</label>
         <label><input type="radio" name="q8" value="d"> Size</label>
+        <div class="explanation" style="display:none;"></div>
       </div>
 
-      <div class="question">
+      <div class="question" data-answer="a" data-explanation="In a saltwater solution, water is the solvent and salt is the solute.">
         <p>9. In a solution of salt and water, what is the solvent?</p>
         <label><input type="radio" name="q9" value="a"> Water</label>
         <label><input type="radio" name="q9" value="b"> Salt</label>
         <label><input type="radio" name="q9" value="c"> Sugar</label>
         <label><input type="radio" name="q9" value="d"> Lemon</label>
+        <div class="explanation" style="display:none;"></div>
       </div>
 
-      <div class="question">
+      <div class="question" data-answer="d" data-explanation="The Moon takes about 28 days to complete one orbit around the Earth.">
         <p>10. How long does it take the Moon to orbit the Earth?</p>
-        <label><input type="radio" name="q10" value="d"> About 28 days</label>
         <label><input type="radio" name="q10" value="a"> 7 days</label>
         <label><input type="radio" name="q10" value="b"> 1 day</label>
         <label><input type="radio" name="q10" value="c"> 365 days</label>
+        <label><input type="radio" name="q10" value="d"> About 28 days</label>
+        <div class="explanation" style="display:none;"></div>
       </div>
 
       <button type="button" onclick="checkAnswers()">Submit</button>
@@ -136,28 +152,33 @@
 
   <script>
     function checkAnswers() {
-      const answers = {
-        q1: "b",
-        q2: "b",
-        q3: "a",
-        q4: "c",
-        q5: "d",
-        q6: "c",
-        q7: "a",
-        q8: "b",
-        q9: "a",
-        q10: "d"
-      };
-
       let score = 0;
-      let total = Object.keys(answers).length;
+      let total = 0;
 
-      for (let q in answers) {
-        const selected = document.querySelector(`input[name="${q}"]:checked`);
-        if (selected && selected.value === answers[q]) {
-          score++;
+      const questions = document.querySelectorAll('.question');
+
+      questions.forEach((q, index) => {
+        const correct = q.getAttribute('data-answer');
+        const explanation = q.getAttribute('data-explanation');
+        const name = `q${index + 1}`;
+        const selected = document.querySelector(`input[name="${name}"]:checked`);
+        const explanationEl = q.querySelector('.explanation');
+
+        total++;
+
+        if (selected) {
+          if (selected.value === correct) {
+            score++;
+            explanationEl.style.display = "none";
+          } else {
+            explanationEl.innerHTML = `❌ Correct answer: <b>${correct.toUpperCase()}</b> — ${explanation}`;
+            explanationEl.style.display = 'block';
+          }
+        } else {
+          explanationEl.innerHTML = `⚠️ No answer selected. Correct: <b>${correct.toUpperCase()}</b> — ${explanation}`;
+          explanationEl.style.display = 'block';
         }
-      }
+      });
 
       const percent = (score / total) * 100;
       document.getElementById("result").innerText =
